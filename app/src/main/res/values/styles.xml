@@ -1,0 +1,29 @@
+<resources xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    </style>
+
+    <style name="tv_post_title">
+        <item name="android:paddingTop">@dimen/padding_medium</item>
+        <item name="android:paddingLeft">@dimen/padding_medium</item>
+        <item name="android:textSize">@dimen/text_size_medium</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:scrollHorizontally">true</item>
+    </style>
+
+    <style name="tv_post_details">
+        <item name="android:paddingLeft">@dimen/padding_medium</item>
+        <item name="android:textSize">@dimen/text_size_small</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:scrollHorizontally">true</item>
+    </style>
+
+    <style name="video_list_empty">
+        <item name="android:padding">@dimen/padding_big</item>
+        <item name="android:textSize">@dimen/text_size_medium</item>
+        <item name="android:textColor">@android:color/darker_gray</item>
+    </style>
+</resources>
