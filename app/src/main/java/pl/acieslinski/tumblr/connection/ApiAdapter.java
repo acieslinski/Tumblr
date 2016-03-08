@@ -62,9 +62,7 @@ public class ApiAdapter {
     }
 
     /**
-     * Sends query for provided {@link Post} and returns an observer for the results (posts). It
-     * also warms up the cache with poster's images. It calls {Subscriber#onNext} when video's
-     * data is fetched with the poster image.
+     * Sends query for provided {@link Post} and returns an observer for the results (posts).
      */
     @WorkerThread
     public Observable<Post> getPosts() {
@@ -84,8 +82,7 @@ public class ApiAdapter {
     }
 
     /**
-     * Sends query for provided {@link Post}. It also warms up the cache with poster's images.
-     * It calls {Subscriber#onNext} when video's data is fetched with the poster image.
+     * Sends query for provided {@link Post}.
      */
     @WorkerThread
     private void getPosts(final Subscriber<? super Post> subscriber) {
